@@ -10,7 +10,7 @@ const AddAndRestoreBtns = () => {
         onClick={() => navigate('/create')}
       >
         <svg className='plus-icon'>
-          <use href='../img/symbol-defs.svg#icon-plus'></use>
+          <use href='/img/symbol-defs.svg#icon-plus'></use>
         </svg>
       </button>
       <button
@@ -19,7 +19,7 @@ const AddAndRestoreBtns = () => {
         onClick={() => navigate('/restore')}
       >
         <svg className='restore-icon'>
-          <use href='../img/symbol-defs.svg#icon-restore'></use>
+          <use href='/img/symbol-defs.svg#icon-restore'></use>
         </svg>
       </button>
     </div>

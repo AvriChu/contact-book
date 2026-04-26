@@ -31,7 +31,7 @@ const AllActiveNumbers = ({ contacts, letter, onDelete }) => {
                 }}
               >
                 <svg className='trash-icon'>
-                  <use href='../img/symbol-defs.svg#icon-trash'></use>
+                  <use href='/img/symbol-defs.svg#icon-trash'></use>
                 </svg>
               </button>
               <button
@@ -41,21 +41,21 @@ const AllActiveNumbers = ({ contacts, letter, onDelete }) => {
                 }}
               >
                 <svg className='edit-icon'>
-                  <use href='../img/symbol-defs.svg#icon-edit'></use>
+                  <use href='/img/symbol-defs.svg#icon-edit'></use>
                 </svg>
               </button>
             </div>
             <div className='all-info'>
               <div className='name-info'>
                 <svg className='accaunt-icon'>
-                  <use href='../img/symbol-defs.svg#icon-accaunt'></use>
+                  <use href='/img/symbol-defs.svg#icon-accaunt'></use>
                 </svg>
                 <p>{contact.name}</p>
               </div>
 
               <div className='number-info'>
                 <svg className='phone-icon'>
-                  <use href='../img/symbol-defs.svg#icon-phone'></use>
+                  <use href='/img/symbol-defs.svg#icon-phone'></use>
                 </svg>
                 <p>{contact.number}</p>
               </div>

@@ -51,7 +51,7 @@ const RestorePage = () => {
       <div className='back-bur'>
         <button type='button'>
           <svg className='icon-back' onClick={() => navigate('/')}>
-            <use href='../img/symbol-defs.svg#icon-back'></use>
+            <use href='/img/symbol-defs.svg#icon-back'></use>
           </svg>
         </button>
       </div>
@@ -60,20 +60,20 @@ const RestorePage = () => {
           <div className='interaction-buttons'>
             <button type='button' onClick={handleRestore}>
               <svg className='restore-icon'>
-                <use href='../img/symbol-defs.svg#icon-restore'></use>
+                <use href='/img/symbol-defs.svg#icon-restore'></use>
               </svg>
             </button>
           </div>
           <div className='all-info'>
             <div className='name-info'>
               <svg className='accaunt-icon'>
-                <use href='../img/symbol-defs.svg#icon-accaunt'></use>
+                <use href='/img/symbol-defs.svg#icon-accaunt'></use>
               </svg>
               <p>{restoreContact.name}</p>
             </div>
             <div className='number-info'>
               <svg className='phone-icon'>
-                <use href='../img/symbol-defs.svg#icon-phone'></use>
+                <use href='/img/symbol-defs.svg#icon-phone'></use>
               </svg>
               <p>{restoreContact.number}</p>
             </div>

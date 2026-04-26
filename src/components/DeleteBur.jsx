@@ -21,12 +21,12 @@ const DeleteBur = ({ isOpen, onClose, name, index, letter, onDelete }) => {
             onClick={handleDeleteClick}
           >
             <svg className='check-icon'>
-              <use href='../img/symbol-defs.svg#icon-check'></use>
+              <use href='/img/symbol-defs.svg#icon-check'></use>
             </svg>
           </button>
           <button className='cross-button' type='button' onClick={onClose}>
             <svg className='cross-icon'>
-              <use href='../img/symbol-defs.svg#icon-cross'></use>
+              <use href='/img/symbol-defs.svg#icon-cross'></use>
             </svg>
           </button>
         </div>

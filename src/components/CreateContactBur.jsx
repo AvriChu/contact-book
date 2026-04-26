@@ -134,7 +134,7 @@ const CreateContactBur = () => {
           onClick={() => navigate('/')}
         >
           <svg className='cross-icon'>
-            <use href='../img/symbol-defs.svg#icon-cross'></use>
+            <use href='/img/symbol-defs.svg#icon-cross'></use>
           </svg>
         </button>
         <form
@@ -181,7 +181,7 @@ const CreateContactBur = () => {
           <button className='create-contact-btn' type='submit'>
             {createdInfo ? (
               <svg className='check-icon'>
-                <use href='../img/symbol-defs.svg#icon-check'></use>
+                <use href='/img/symbol-defs.svg#icon-check'></use>
               </svg>
             ) : (
               'Створити'
